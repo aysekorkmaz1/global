@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    
+    }
+    body{
+        background: url(/almanya1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+    }
+
+    /*header css*/
+    .header{
+     background-color: lightgray;
+     display: flex;
+     height: 110px;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     top:0;
+     
+
+    }
+
+    .header .title h1{
+        color: orange
+
+    }
+
+    .header .title h1 span{
+        color: darkblue;
+    }
+
+    .header .nav ul li{
+        list-style-type: none;
+    }
+
+    .header .nav ul li a{
+        text-decoration:none;
+        margin-right: 10px;
+        color:orange;
+        font-size: 25px;
+
+    }
+
+    .header .nav ul li a:hover{
+
+        color: black;
+        cursor: pointer;
+    }
+
+    /*header bitiş*/
+/* ana içerik başlangıç css */
+    .main{
+        height: 50vh;
+        width: 100%;
+        margin-top: 170px;
+        display: flex;
+        justify-content:center ;
+
+    }
+
+    .main .info{
+        height: 100%;
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .main .info h1 {
+        color: black;
+    }
+
+    .main .info p{
+        color: orange;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+
+    .main .info p b{
+        color: darkblue;
+        text-transform: inherit;
+    }
+
+    .main .info button {
+
+        border: none;
+        background-color: orange;
+        color: black;
+        padding: 10px 20 px;
+        border-radius: 5px;
+
+    }
+
+    .main  .info button:hover{
+        cursor: pointer;
+        background-color: darkblue;
+        
+
+
+    }
+    /*ana içerik bitiş css*/
+
+    /*table alanı*/
+    .table-container{
+        width: 60%;
+        margin:10px 20% 10px 20% ;
+        
+    }
+
+    .table-container table{
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+
+        
+    }
+    th,td{
+        padding: 8px;
+        border: 1px solid grey; 
+
+    }
+    th{
+        background-color: lightgray;
+    }
+    /*table alanı bitiş*/
+
+    /*form alanı css başlangıç*/
+    .form-container{
+        width: 60%;
+        margin: 20px auto;
+        padding: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-top: 100px;
+        background-color: grey;
+
+    }
+
+    label{
+        font-weight: bold;
+    }
+    #ad,
+    #email,
+    #mesaj {
+        width: 100%;
+        padding: 10px;
+        border: 3px solid grey;
+        border-radius: 5px;
+
+    }
+
+    .btn{
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color: darkblue;
+
+
+
+    }
+
+    /*form alanı css bitiş*/
+
+    /*footer alanı başlangıç*/
+
+    .footer{
+        background-color: #333;
+        color: white;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*footer alanı bitiş*/
+
+    /*media sorgusu*/
+
+    @media (max-width: 800px) {
+        .header .nav {
+          display: none;
+        }
+        /* .header {
+          background-color: aqua;
+        } */
+      }
+      
+    
+
+    
+    
+
